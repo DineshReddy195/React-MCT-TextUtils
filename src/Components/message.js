@@ -1,0 +1,1 @@
+export const copySuccess="Input Successfully Copied To Clipboard"
