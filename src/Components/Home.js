@@ -11,10 +11,8 @@ import { copySuccess } from './message';
 function Home() {
   const[input,setInput]=useState("")
   const[theme,setTheme]=useState(true);
-  const[preview,setPreview]=useState("")
   const handleChange=(e)=>{
     setInput(e.target.value)
-    setPreview(e.target.value)
   }
   const handleUppercase=()=>{
     if(input===""){
